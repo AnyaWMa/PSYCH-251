@@ -1,0 +1,4 @@
+"0","foo <- initialize_the_thing_being_bound()"
+"2","Error in initialize_the_thing_being_bound() : 
+  could not find function ""initialize_the_thing_being_bound""
+"

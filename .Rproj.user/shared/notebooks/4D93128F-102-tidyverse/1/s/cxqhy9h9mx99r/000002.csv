@@ -1,0 +1,5 @@
+"0","sgf |>"
+"0","  group_by(age_group, condition) |>"
+"0","  summarise(mean_correct = mean(correct))"
+"1","`summarise()` has grouped output by 'age_group'. You can override using the `.groups` argument.
+"

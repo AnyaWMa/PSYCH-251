@@ -1,0 +1,8 @@
+"0","ggplot(sgf_means, "
+"0","       aes(x = age_group, y = mean_correct, "
+"0","           col = condition, group = condition)) + "
+"0","  geom_line() + "
+"0","  ylim(0,1) +"
+"0","  theme_classic() + "
+"0","  xlab(""Age group (years)"") + "
+"0","  ylab(""Proportion correct"")"

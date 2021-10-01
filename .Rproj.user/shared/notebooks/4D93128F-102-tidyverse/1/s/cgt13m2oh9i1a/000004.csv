@@ -1,0 +1,8 @@
+"0","mtcars$mpg |> "
+"0","  gpm() |>"
+"0","  mean() |>"
+"0","  round(digits=2) -> assignTovarriable"
+"0",""
+"0","# = assign variable"
+"0","# == test equality "
+"0","# <- assign "

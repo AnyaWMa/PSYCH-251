@@ -1,0 +1,2 @@
+"0","sgf <- sgf |>"
+"0","  mutate(age_group = cut(age, 2:5, include.lowest = TRUE))"

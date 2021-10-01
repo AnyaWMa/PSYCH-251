@@ -1,0 +1,4 @@
+"0","sgf_wide |> "
+"0","  pivot_longer(beds:pasta, "
+"0","               names_to = ""item"", "
+"0","               values_to = ""correct"")"

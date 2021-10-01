@@ -1,0 +1,14 @@
+"0","sgf_sub_means <- sgf |>"
+"0","  group_by(age_group, condition, subid) |>"
+"0","  summarise(mean_correct = mean(correct)) "
+"1","`summarise()` has grouped output by 'age_group', 'condition'. You can override using the `.groups` argument.
+"
+"0","sgf_group_means <- sgf_sub_means |>"
+"0","  group_by(age_group, condition) |>"
+"0","  summarise(sd_correct = sd(mean_correct), "
+"0","            n_obs = length(mean_correct),"
+"0","            sem = sd_correct / sqrt(n_obs),"
+"0","            ci = sem * 1.96,"
+"0","            mean_correct = mean(mean_correct))"
+"1","`summarise()` has grouped output by 'age_group'. You can override using the `.groups` argument.
+"
